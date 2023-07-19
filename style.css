@@ -3,44 +3,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color:antiquewhite;
+    font-family: 'Bahnschrift', monospace;
+
 }
 
 a{
     text-decoration: none;
 }
+
 h1{
     color: rgb(38, 38, 38);
     font-size: 2rem;
-    font-family: 'Alef', monospace;
 }
 h2{
     color: rgb(38, 38, 38);
     font-size: 1.5rem;
-    font-family: 'Alef', monospace;
 }
 p{
     color: rgb(38, 38, 38);
     font-size: 1rem;
-    font-family: 'Alef', monospace;
 }
 
-
-@font-face {
-    font-family: "Alef";
-    src: url("./Alef.ttf");
-}
 
 /* ./header */
 header{
-    background-color: #EFEBCE;
+    background-color: #b68788;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
 }
 
+.logo{
+    background-color: #b68788; 
+}
+
 .encabezado{
-    background-color:#EFEBCE;
+    background-color:#b68788;
     list-style-type: none; 
     display: flex;
     flex-direction: row;
@@ -49,16 +49,16 @@ header{
 
 .menu-encabezado {
     color: rgb(38, 38, 38);
-    font-size: 1rem;
-    font-family: 'Alef', monospace;
+    font-size: 1.5rem;
     padding: 2rem;
+    background-color:#b68788;
 }
 
-
-
+.menu-encabezado-item {
+    background-color:#b68788;
+}
 
 .imagen-texto-horizontal{
-    background-color: #b68788;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,13 +67,16 @@ header{
     padding: 1.5rem;  
     text-align: center;
 }
+
 #imagen-bienvenida{
    width: 30%; 
 }
 .titulo-bienvenida{
-    font-size: 3.5rem;
+    font-size: 5rem;
+
 }
 .texto-bienvenida{
+    font-size: 2rem;
     width: 700px;
     padding: 2rem;
     padding-left: 4rem;
@@ -165,12 +168,12 @@ header{
 
 
 footer{
-    background-color: #EFEBCE;
+    background-color:#b68788;
     display: flex;
     flex-direction: column
 }
 .pie-pagina{
-    background-color:#EFEBCE;
+    background-color:#b68788;
     list-style-type: none; 
     display: flex;
     flex-direction: row;
@@ -179,7 +182,11 @@ footer{
 }
 .menu-pie {
     color: rgb(38, 38, 38);
-    font-size: 1rem;
-    font-family: 'Alef', monospace;
+    font-size: 1.5rem;
     padding: 2rem;
+    background-color:#b68788;
+}
+
+.menu-pie-item{
+    background-color:#b68788;
 }

@@ -5,61 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garntraum</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 
 
 <body>
     
     <header>
-        <ul>
-            <a href="./index.html"><img class="logo" src="./img/logo.png" alt="logo" width="400"></a>
-        </ul>  
-        <ul class= "encabezado">
-            <li class="menu-encabezado">
-                <a class="menu-encabezado-item" href="./pages/tejido.html">¡Agujas a la obra!</a></li>
-            <li class="menu-encabezado">
-                <a class="menu-encabezado-item" href="./pages/tips.html">Tips tejeriles</a></li>
-            <li class="menu-encabezado">
-                <a class="menu-encabezado-item" href="./pages/sobre.html">Sobre Garntraum</a></li>    
-        </ul>        
+        <div class="container text-center">
+            <div class="row">
+                <div class="col encabezado-logo">
+                    <a href="./index.html"><img src="./img/logo.png" alt="logo" width="200"></a>
+                </div>
+                <div class="col encabezado">
+                    <ul class="nav justify-content-end encabezado">
+                        <li class="nav-item menu-encabezado">
+                            <a class="nav-link active" aria-current="page" href="./pages/tejido.html">¡Agujas a la obra!</a></li>
+                        </li>
+                        <li class="nav-item menu-encabezado">
+                            <a class="nav-link" href="./pages/tips.html">Tips tejeriles</a></li>
+                        </li>
+                        <li class="nav-item menu-encabezado">
+                            <a class="nav-link" href="./pages/sobre.html">Sobre Garntraum</a></li>
+                        </li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
-        <section class="bienvenida">
+        <div class="container text-center">
             <h1 class="titulo-bienvenida">¡Bienvenidos a Garntraum!</h1>
             <p class="texto-bienvenida">En este espacio podrás encontrar inspiración para tus tejidos: nuevas tramas, consejos prácticos, patrones y una bella comunidad. ¡A crear juntos!</p>
-        </section>            
+        </div>            
             
-        <!-- Identidad -->
-            <!-- <div class="identidad">
-                <h1 class="titulo-identidad">¿Qué hacemos en Garntraum?</h1>
-                <p class="texto-identidad">En Garntraum queremos ayudarte a que te inspires y tejas obras de arte. Acá podés encontrar todo lo que encesitás para relajarte, desconectarte de la rutina y conectarte con tus manos para que surja una nueva creación. Nuestro objetivo es que puedas aprender técnicas innovadoras y te superes tejido a tejido. </p>
-            </div> -->
-        
-        <section class="secciones">
+        <section>
             <div class="acceso-h">
                 <div class="acceso-item">
                     <a href="./pages/tejido.html"><img class="imagen-seccion" src="./img/revista3.png"></a>
-                    <h2 class="titulo-acceso">Patrones y tutoriales</h2>
+                    <h2 class="titulo-seccion">Patrones y tutoriales</h2>
                 </div>
                 <div class="acceso-item">
                     <a href="./pages/tips.html"><img class="imagen-seccion" src="./img/material5.png"></a>
-                    <h2 class="titulo-acceso">Tips tejeriles</h2>
+                    <h2 class="titulo-seccion">Tips tejeriles</h2>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <ul class= "pie-pagina">
-            <li class="menu-pie">
-                <a class="menu-pie-item" href="./pages/tejido.html">¡Agujas a la obra!</a></li>
-            <li class="menu-pie">
-                <a class="menu-pie-item" href="./pages/tips.html">Tips tejeriles</a></li>
-            <li class="menu-pie">
-                <a class="menu-pie-item" href="./pages/sobre.html">Sobre Garntraum</a></li>   
+        <ul class="nav justify-content-center pie-pagina">
+            <li class="nav-item menu-pie">
+              <a class="nav-link active menu-pie-item" aria-current="page" href="./pages/tejido.html">¡Agujas a la obra!</a></li>
+            </li>
+            <li class="nav-item menu-pie">
+              <a class="nav-link menu-pie-item" href="./pages/tips.html">Tips tejeriles</a></li>
+            </li>
+            <li class="nav-item menu-pie">
+              <a class="nav-link menu-pie-item" href="./pages/sobre.html">Sobre Garntraum</a></li>
+            </li>
         </ul>
+        <div class="row pie-pagina">
+            <ul class="pie-icono">
+                <li class="menu-pie-icono">
+                    <img src="./img/instagram.png" alt="instagram" width="50"></a> 
+                </li>
+                <li class="menu-pie-icono">
+                    <img src="./img/youtube.png" alt="youtube" width="50"></a>           
+                </li>
+            </ul>
+        </div>
     </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
 </html>

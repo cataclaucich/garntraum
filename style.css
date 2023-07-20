@@ -29,6 +29,8 @@ header{
     background-color: #b68788;
 }
 
+
+
 .encabezado-logo{
     background-color:#b68788;
     display: flex;
@@ -72,12 +74,20 @@ header{
     text-align:center;
 }
 
-.titulo-seccion{
-    font-size: 1.5rem;
+
+.seccion-central{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
+
+
 .imagen-seccion{
-    width: 40%;
+    width: 90%;
+    padding-top: 1rem;
+
 }
+
+
 
 footer{
     background-color:#b68788;

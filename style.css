@@ -32,10 +32,7 @@ header{
 
 
 .encabezado-logo{
-    background-color:#b68788;
-    display: flex;
-    justify-content: left;
-    align-items: center;     
+    background-color:#b68788;     
 }
 
 .encabezado{

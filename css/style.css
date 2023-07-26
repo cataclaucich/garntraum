@@ -1,4 +1,5 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,6 +27,12 @@ p{
 
 header{
     background-color: #b68788;
+}
+
+
+
+.encabezado-logo{
+    background-color:#b68788;     
 }
 
 .encabezado{
@@ -114,3 +121,4 @@ footer{
     padding-right: 1rem;
     
 }
+
